@@ -157,12 +157,9 @@ public class Main {
                     System.out.print("Content: ");
                     content = sc.nextLine();
 
-                    System.out.print("Views count: ");
-                    int views = sc.nextInt();
-                    sc.nextLine();
-
-                    BoardMessage board = new BoardMessage(sender, content, false, views);
+                    BoardMessage board = new BoardMessage(sender, content, false, 0);
                     messages.add(board);
+
                     System.out.println("BoardMessage added.");
                     break;
 
