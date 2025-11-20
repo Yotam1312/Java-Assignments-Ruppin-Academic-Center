@@ -37,7 +37,7 @@ public class Main {
             System.out.print("Enter choice: ");
 
             choice = sc.nextInt();
-            sc.nextLine(); // Clear buffer
+            sc.nextLine();
 
             switch (choice) {
 
